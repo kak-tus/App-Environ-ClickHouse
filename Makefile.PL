@@ -9,8 +9,11 @@ WriteMakefile(
   NAME         => 'App::Environ::ClickHouse',
   VERSION_FROM => 'lib/App/Environ/ClickHouse.pm',
   PREREQ_PM    => {
-    'App::Environ'     => '0.18',
-    'HTTP::ClickHouse' => 0,
+    'AnyEvent::ClickHouse' => 0,
+    'App::Environ'         => '0.18',
+    'Carp'                 => 0,
+    'HTTP::ClickHouse'     => 0,
+    'Params::Validate'     => 0,
   },
   ABSTRACT_FROM => 'lib/App/Environ/ClickHouse.pm',
   AUTHOR        => 'Andrey Kuzmin <kak-tus@mail.ru>',
