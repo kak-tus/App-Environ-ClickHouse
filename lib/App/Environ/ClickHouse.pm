@@ -1,6 +1,7 @@
 package App::Environ::ClickHouse;
 
-our $VERSION = '0.3.2';
+use version;
+our $VERSION = version->declare("v0.4.1");
 
 use strict;
 use warnings;
